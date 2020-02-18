@@ -1,3 +1,5 @@
+/* VideoListEntry - A component that shows a thumbnail view for a single video. When the title of this video is clicked, that video will be played in the VideoPlayer component */
+
 var VideoListEntry = () => (
   <div className="video-list-entry media">
     <div className="media-left media-middle">

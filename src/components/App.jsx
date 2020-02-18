@@ -1,3 +1,5 @@
+// App - The top level container for the entire application. This is the component that will be rendered to the DOM
+
 var App = () => (
   <div>
     <nav className="navbar">

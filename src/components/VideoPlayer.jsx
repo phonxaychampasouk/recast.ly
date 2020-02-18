@@ -1,3 +1,5 @@
+// VideoPlayer - Responsible for playing a single video and displaying information about it
+
 var VideoPlayer = () => (
   <div className="video-player">
     <div className="embed-responsive embed-responsive-16by9">
