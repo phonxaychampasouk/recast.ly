@@ -8,6 +8,18 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = {
+      vidInPlayer: exampleVideoData[0],
+      vidList: VideoList(exampleVideoData)
+    }
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState(state => ({
+      vidInPlayer: // vidInPlayer should be the video that was clicked on
+
+    }))
   }
 
   render() {
@@ -30,10 +42,6 @@ class App extends React.Component {
     );
   }
 }
-
-// var App = (props) => (
-
-// );
 
 // In the ES6 spec, files are "modules" and do not share a top-level scope
 // `var` declarations will only exist globally where explicitly defined
